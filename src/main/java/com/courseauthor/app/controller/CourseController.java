@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.courseauthor.app.model.Course;
 import com.courseauthor.app.service.CourseService;
 
-@CrossOrigin("http://localhost:4200")
+//@CrossOrigin("http://localhost:4200")
 @RestController
 @RequestMapping("courses")
 public class CourseController {
